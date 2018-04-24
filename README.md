@@ -1,4 +1,4 @@
-Chatbot with Seq2seq Model Based on Recurrent Neural Network
+Chatbot with Sequence-to-sequence Model Based on Recurrent Neural Network
 ============================================================
 by SangMin Lee
 
