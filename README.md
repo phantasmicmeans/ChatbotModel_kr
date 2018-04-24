@@ -1,42 +1,49 @@
 Chatbot with Seq2seq Model Based on Recurrent Neural Network
+============================================================
+by SangMin Lee
 
-#Development Environment
-
-- Ubuntu 16.04
-- Tensorflow-gpu 1.3.0
-- python 3.6.2
+> - Development Environment
+> - Ubuntu 16.04
+> - Tensorflow-gpu 1.3.0
+> - python 3.6.2
     - konlpy 0.4.4
-        - JPype1 0.6.2
-
-- Django 2.0
+        - JPype1 0.6.2   
+> - Django 2.0
 
 
 # Data preprocessing
+
 1. 현재는 Token by blank
 
-2. Konlpy twitter로 token을 나누어 학습시키려면,
+2. Konlpy twitter로 token을 나누어 학습시키려면
+
    - builb_voc.py에서 주석 삭제,
    - Conversation.py, chat.py에 주석을 삭제.
    - 그리고 다시 아래의 과정 1부터 진행
 
-#Process
+
+
+# Process
+
 1. build_voc
 
- data를 바꾸신다면 다시 voc를 빌드하셔야 합니다. 
-- python build_voc.py
+ * data를 바꾸신다면 다시 voc를 빌드하셔야 합니다. 
+ * $python build_voc.py
 
 
 2. train 
 
-- python train.py
- model을 다시 train 시키려면-> " cd model " -> " rm -rf * " -> python train.py
+ * $python train.py
+ 
+ > **Tip**  model을 다시 train 시키려면-> " cd model " -> " rm -rf * " -> python train.py
 
 
 3. chat
-- python chat.py
+ * $python chat.py
 
 
-#<**conversatin example** >#
+**Conversatin example** 
+
 1.  하이!
     -> 안녕
 2.  안녕하세요
@@ -64,4 +71,8 @@ Chatbot with Seq2seq Model Based on Recurrent Neural Network
 13. 배가 너무 고플땐 어떻게 하나요?
     -> 그냥 굶어요
 
-#나머지 세부사항은 config에서 확인 하실 수 있습니다.
+
+### 나머지 세부사항은 config에서 확인 하실 수 있습니다.
+### Please check the config file 
+
+
