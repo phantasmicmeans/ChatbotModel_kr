@@ -43,6 +43,20 @@ by SangMin Lee
     * $python chat.py
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Conversatin example** 
 
 1.  하이!
