@@ -2,7 +2,7 @@ Chatbot with Seq2seq Model Based on Recurrent Neural Network
 ============================================================
 by SangMin Lee
 
-> - Development Environment
+>**Development Environment**
 > - Ubuntu 16.04
 > - Tensorflow-gpu 1.3.0
 > - python 3.6.2
@@ -27,19 +27,20 @@ by SangMin Lee
 
 1. build_voc
 
- * data를 바꾸신다면 다시 voc를 빌드하셔야 합니다. 
- * $python build_voc.py
+    * data를 바꾸신다면 다시 voc를 빌드하셔야 합니다. 
+    * $python build_voc.py
 
 
 2. train 
 
- * $python train.py
+    * $python train.py
  
- > **Tip**  model을 다시 train 시키려면-> " cd model " -> " rm -rf * " -> python train.py
+    **Tip**  model을 다시 train 시키려면-> " cd model " -> " rm -rf * " -> python train.py
 
 
 3. chat
- * $python chat.py
+
+    * $python chat.py
 
 
 **Conversatin example** 
@@ -72,7 +73,7 @@ by SangMin Lee
     -> 그냥 굶어요
 
 
-### 나머지 세부사항은 config에서 확인 하실 수 있습니다.
-### Please check the config file 
+#### 나머지 세부사항은 config에서 확인 하실 수 있습니다. ####
+#### Please check the config file ####
 
 
